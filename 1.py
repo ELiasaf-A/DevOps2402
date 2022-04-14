@@ -3,6 +3,7 @@ b = 4
 c = 5
 d = b+c
 e = True
+
 f = False
 r = [1,2,3,4,"one","two",]
 t = ["eliasaf" ,"abargel" ,32 , True]
