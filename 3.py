@@ -25,4 +25,4 @@ print(g)
 print(h)
 print(i)
 print(z)
-print(n, r)
+
