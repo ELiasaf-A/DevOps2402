@@ -1,4 +1,4 @@
-properties([pipelineTriggers([pollSCM('* * * * *')])])
+properties([parameters([string(defaultValue: 'eliasaf', description: 'what is your name?', name: 'NAME')]), pipelineTriggers([pollSCM('* * * * *')])])
 node {
     stage("clone"){
         git "https://github.com/ELiasaf-A/DevOps2402.git"
