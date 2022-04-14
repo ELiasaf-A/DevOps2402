@@ -3,8 +3,9 @@ b = 4
 c = 5
 d = b+c
 e = True
+
 f = False
-r = [1,2,3,4,5]
+r = [1,2,3,4,"one","two",]
 t = ["eliasaf" ,"abargel" ,32 , True]
 h = ("eliasaf","abargel",32,  True)
 y = ("hoodia","oss",40 , False)
